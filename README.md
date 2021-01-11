@@ -22,6 +22,6 @@ Class repository for the Ironhack Berlin Data Analytics Full Time class starting
 
 ### Unit 1 (Week 1) <a name="ln_u1"></a>
 
-| Day | Notes | Files |
+| Day | Solution | Files |
 |--|--|--|
-| 1 |  | |
+| 1 | [1.01_lab_bash_solution](https://github.com/n1oftheabove/BER-DAFT-JAN21/tree/main/Labs/Solutions/unit_1/day_1/1.01_lab_bash_solution) | - |
