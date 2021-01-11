@@ -1,5 +1,5 @@
 # BER-DAFT-JAN21
-Class repository for the Ironhack Berlin Data Analytics Full Time class starting January 2021 (LT: Sian). Will contain lecture notes and lab solutions among other things.
+Class repository for the Ironhack Berlin Data Analytics Full Time class starting January 2021 (LT: Himanshu). Will contain lecture notes and lab solutions among other things.
 
 
 ## Table of Contents
