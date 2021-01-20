@@ -10,11 +10,11 @@ delete from account_demo where account_id = 1;
 delete from account_demo;
 ```
 
-- Discuss the difference between `drop` and `delete`.
+
   It is important to note the difference between DELETE and DROP.
   `DELETE` only removes the contents of the table, while the `DROP` command removes the table from the database. (Remember we used the statement `drop table if exists district_demo;` before we created the table in the database to make sure that it doesn't already exist in the database.)
 
-> Ask students to delete all the contents of the table `district_demo` as well.
+
 
 ```sql
 delete from district_demo;
@@ -23,7 +23,6 @@ delete from district_demo;
 
 <summary> Click for Code Sample: INSERT </summary>
 
-> Show to the students how to upload data in bulk into a table in the database. For this, we will use the `load data local` command. It is by default turned off. We can check it with the `show variables` command. You would see that value for the variable `local_infile` would be OFF. We can then use the `set global` command to switch that variable ON by setting a value 1 to it.
 
 ```sql
 show variables like 'local_infile';
@@ -38,7 +37,6 @@ into table district_demo
 fields terminated by ',';
 ```
 
-> The CSV file has been attached. Note that, since we deleted a column in the `district_demo` table, the same changes were made to the CSV file. Ask the students to do the same with the account_demo table. The CSV file is added to the folder as well. Solution:
 
 ```sql
 delete from account_demo;
@@ -56,7 +54,7 @@ where A2 = 'Kladno';
 
 <summary> Click for Code Sample: Simple Aggregations </summary>
  
-:exclamation: Note to instructor: We will keep using the `bank` database and its `loan` table.
+We will keep using the `bank` database and its `loan` table.
 
 ```sql
 -- what is the total amount loaned by the bank so far
@@ -69,8 +67,6 @@ select sum(payments) from bank.loan;
 select avg(amount) from bank.loan
 where Status = 'A';
 ```
-
-This is how we can use simple aggregation functions. Now, you can challenge your students changing the previous query from _"What is the average loan amount taken by customers in Status A"_ to _"What is the average loan amount taken by customers in each of the status categories? Arrange them from highest to lowest"_.
 
 </details>
 
