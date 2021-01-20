@@ -14,7 +14,6 @@ select * from bank.order
 where k_symbol in ('leasing', 'pojistine');
 ```
 
-:exclamation: Note for instructor: Remind the students that when using comparison operators in MySQL, they are not case sensitive, which means 'LEASING' and 'leasing' will be evaluated as equal.
 
 ```sql
 select * from bank.account
