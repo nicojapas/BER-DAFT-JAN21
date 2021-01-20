@@ -42,8 +42,6 @@ where a3 like 'north_M%';
 -- 'north  Moravia', 'northMoravia', northMiami'
 ```
 
-How is the result changed if we use `%` instead of `_` in the previous query? This is an activity for students later after this session.
-
 ```sql
 select * from bank.district
 where a3 regexp 'north';
