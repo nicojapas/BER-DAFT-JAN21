@@ -1,0 +1,35 @@
+3.03_solution_activity_1.
+
+select d1.account_id, c1.client_id as owner, c2.client_id as disponent
+from bank.client c1
+inner join bank.disp d1 on c1.client_id = d1.client_id and d1.type='OWNER'
+inner join bank.disp d2 on d1.account_id = d2.account_id
+inner join bank.client c2 on c2.client_id = d2.account_id and d2.type = 'DISPONENT';
+
+
+3.03_solution_activity_3.
+select b.store_name, a.product_name, ifnull(c.revenue, 0) as revenue
+from products as a
+cross join stores as b
+left join (
+  select
+    stores.id as store_id,
+    products.id as product_id,
+    store_name,
+    product_name,
+    round(sum(quantity * price), 0) as revenue
+  from sales
+    inner join products on products.id = sales.product_id
+    inner join stores on stores.id = sales.store_id
+    group by store_name , product_name
+) as c on c.store_id = b.id and c.product_id = a.id
+order by b.store_name;
+
+3.03_solution_activity_4
+All possible pairs of clients and service (bank)
+All possible pairs of clients and product (real state)
+All possible pairs between users of a dating service
+...
+
+A few good examples on self joins
+https://www.sqlservertutorial.net/sql-server-basics/sql-server-self-join/
