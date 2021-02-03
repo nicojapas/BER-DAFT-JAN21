@@ -1,0 +1,62 @@
+
+```python
+continuous_df = numericals.drop(columns = discrete)
+discrete_df = numericals[discrete]
+```
+
+```python
+mask = np.zeros_like(numericals.corr())
+mask[np.triu_indices_from(mask)] = True
+with sns.axes_style("white"):
+    f, ax = plt.subplots(figsize=(16, 10))
+    ax = sns.heatmap(numericals.corr(), mask=mask,
+                     square=True, linewidths=1, cmap="coolwarm",
+                     vmax = 0.8, vmin = -0.8)
+
+# We can see income and months since
+# policy inception are somewhat related
+```
+
+```python
+def df_bar(df):
+    """
+    Docs
+    """
+    sns.set(rc={'figure.figsize':(16,8)})
+
+    for i, col in enumerate(df):
+        plt.figure(i)
+        sns.barplot(x = df[col].value_counts().index, y = df[col].value_counts())
+
+    plt.show()
+```
+
+```python
+def df_hist(df):
+    """
+    docs
+    """
+    sns.set(rc={'figure.figsize':(16,8)})
+    for i, col in enumerate(df):
+        plt.figure(i)
+        sns.distplot(df[col], color = list(BASE_COLORS.keys())[i])
+        plt.show()
+
+# Only total claim amount (target), income and customer
+# lifetime look like continuous variables. better
+#check more in depth what's happening there:
+# Distribution looks fine, probably no NaNs were replaced.
+```
+
+```python
+box_colors = ["blue", "yellow", "red"]
+
+f, ax = plt.subplots(1, 3, figsize=(16,8))
+
+for i, col in enumerate(continuous[:3]):
+    sns.boxplot(data = continuous_df[col], ax = ax[i], color = box_colors[i])
+    ax[i].set_title(col, fontsize = 14)
+
+plt.show()
+# Serious outliers in customer lifetime value and monthly_premium_auto. Drop them.
+```
