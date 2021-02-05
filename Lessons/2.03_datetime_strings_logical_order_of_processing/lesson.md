@@ -26,14 +26,12 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 Using DateTime functions
 
 - Converting other data types to date, DateTime
 - Changing formats of date columns using `date_format()`
-
-> :exclamation: In this session, please ask the students to go through the case study pdf document to understand the format in which dates have been recorded in these tables - `account`, `card`, and `loan`.
 
 <details>
 <summary> Click for Code Sample </summary>
@@ -72,13 +70,11 @@ select date_format(convert(date,date), '%Y') from bank.loan;
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -90,23 +86,22 @@ select date_format(convert(date,date), '%Y') from bank.loan;
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/1f2c185b794e8880bac887c670326e25).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Logical order of processing SQL queries
 
-> In this section, the instructor will discuss the logical order of query processing in SQL. Even though if someone would read the SQL query, it is likely that they would think that the query is processed line after line from the beginning. But the way SQL reads the query is different. Here the instructor will explain that order using a couple of examples. This is important for students to understand as this would help them write better, more efficient queries later, and will also help them debug the errors. The order is shown below:
+. The order is shown below:
 
 1.  FROM
 2.  ON
@@ -138,26 +133,24 @@ order by order_id desc
 limit 10;
 ```
 
-- If there is more time after the discussion, it will be nice to ask the students to describe the order of query processing on some of the queries that were used before.
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 Null functions
 
 - What a `null` value means in SQL - Three valued logic in SQL
 - Checking for the `null` values
 
-:exclamation: Note for instructor: Please refer to the [document](files_for_lesson_and_activities//null_values_three_value_logic.md) in this lesson's folder.
 
 <details>
 <summary> Click for Code Sample: Null functions </summary>
@@ -187,7 +180,6 @@ where k_symbol is not null and k_symbol = ' ';
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -199,19 +191,19 @@ where k_symbol is not null and k_symbol = ' ';
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/9052f22273f382f8f875b397f6f1a188).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 Case statements in SQL
 
@@ -243,7 +235,7 @@ from bank.loan;
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -255,10 +247,9 @@ from bank.loan;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/daef4a4d1c0c978be370930b58568408).
+- Link to the [lab solution]().
 
 </details>
 
 ---
 
-s
