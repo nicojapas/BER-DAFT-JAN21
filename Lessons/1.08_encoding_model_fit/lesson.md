@@ -143,7 +143,7 @@ r2_score(y_test, predictions)
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/977e3f18c6035f3f2476a4baf3ab6bf0).
+- Link to [activity 2 solution]().
 
 </details>
 
@@ -254,6 +254,6 @@ print(adj_r2)
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/3752be235fc0529beffd785a0e6938cb).
+- Link to the [lab solution]().
 
 </details>
