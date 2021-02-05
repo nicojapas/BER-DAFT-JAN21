@@ -8,8 +8,6 @@
 
 ### Setup
 
-> :exclamation: Note: Please make sure that the students have the following tools set up before the start of the lecture. We will use _Sequel Pro_ later in this session. If there is any student that has not installed them yet, please ask the student to take help from the TA at the end of class.
-
 - Sequel Pro - For students with Mac
 - MySQL Workbench - For students with Windows
 
@@ -26,7 +24,6 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts 
 
-> :clock10: 20 min
 > [**Slides - Databases**](https://docs.google.com/presentation/d/1BIVhxnoca6v4mUf3kClUTWRPduLjID-uaVILdCzmHgU/edit?usp=sharing)
 
 - Potential data sources available
@@ -35,13 +32,11 @@ After this lesson, students will be able to:
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -53,19 +48,17 @@ After this lesson, students will be able to:
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/5ef1fbca018331edc9883a34a8846058).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 ### Lesson 2 key concepts (use ppt intro to SQL)
 
-> :clock10: 20 min
+
 > [**Slides - Intro to SQL**](https://docs.google.com/presentation/d/1q-P3sxtKOaSWHf2V381RRY-mC-A2JOqD1KSjq8Db4I4/edit?usp=sharing)
 
 - Introduction to relational databases
@@ -76,7 +69,7 @@ After this lesson, students will be able to:
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -88,21 +81,17 @@ After this lesson, students will be able to:
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/deb78ecffedff3eb90ce607844b09b68).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
-
-> :clock10: 20 min
-
-:exclamation: Note for instructor: Please refer to the `files_for_lesson_and_activities/case_study_bank.md` file where we have described the business scenario.
 
 > The main objective to improve business by identifying customers that would be beneficial to the company (classification problem). Some other ad-hoc analyses that can be performed using SQL queries have been mentioned at the end of the document. More questions will be added later.
 
@@ -113,7 +102,7 @@ After this lesson, students will be able to:
 
 ### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -125,7 +114,7 @@ After this lesson, students will be able to:
 <details>
   <summary>Click for Solution: Activity 3 solutions </summary>
   
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/0c8043e299ea31227632b96ba30d02c3).
+- Link to [activity 3 solution]().
 
 </details>
 
@@ -133,13 +122,11 @@ After this lesson, students will be able to:
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 - The basic structure of SQL queries
 - Simple select queries
 - Selecting columns and aliasing
-
-:exclamation: Note to instructor: Use `files_for_lesson_and_activities/mysql_dump.sql` database. Load it to Sequel Pro, and there you will find a `bank` database which we will use for the following example.
 
 ```sql
 use bank;
@@ -177,7 +164,7 @@ select count(*) from bank.trans_id;
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -189,19 +176,18 @@ select count(*) from bank.trans_id;
 <details>
   <summary>Click for Solution: Activity 4 solutions </summary>
 
-- Link to [activity 4 solution](https://gist.github.com/ironhack-edu/dce29559311a9c6aafcb36e76978e89d).
+- Link to [activity 4 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -213,7 +199,7 @@ select count(*) from bank.trans_id;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/a7ae236289c245fe73b4e103546ec690).
+- Link to the [lab solution]().
 
 </details>
 
