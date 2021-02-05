@@ -25,7 +25,6 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
 
 > [**Slides**](https://docs.google.com/presentation/d/1EqeLKQDowPYbtfyG9PnlLtcqKi_1TbukUZDimAKm7qo/edit?usp=sharing)
 
@@ -63,13 +62,12 @@ limit 100;
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -81,19 +79,17 @@ limit 100;
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/ffc7447a6bb3b6124574ea8fce258819).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Arithmetic operators in SQL (add (`+`), subtract (`-`), multiply (`*`), divide (`/`), modulo (`%`))
 - Comparison operators in SQL (equal to (`=`), greater than (`>`), less than (`<`), greater than equal to (`>=`), less than equal to (`<=`), not equal to (`<>`))
@@ -160,13 +156,13 @@ limit 10;
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -178,19 +174,17 @@ limit 10;
 <details>
   <summary>Click for Solution: Activity 2 solutions </summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/e94374e172e61096beda4bdde66736ab).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
-
-> :clock10: 20 min
 
 - Using multiple conditions with the `WHERE` clause
 - Using logical operators
@@ -233,7 +227,7 @@ where not k_symbol = 'SIPO' and not amount < 1000;
 
 ### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 20 min
+
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -245,7 +239,7 @@ where not k_symbol = 'SIPO' and not amount < 1000;
 <details>
   <summary>Click for Solution: Activity 3 solutions </summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/8d14c5a437df775ab1e39bbbb4c29e02).
+- Link to [activity 3 solution]().
 
 </details>
 
@@ -253,7 +247,6 @@ where not k_symbol = 'SIPO' and not amount < 1000;
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
 
 - Using numeric functions
 - Using string functions
@@ -314,13 +307,13 @@ select A2, left(A2,5), A3, ltrim(A3) from bank.district;
 select substring_index(issued, ' ', 1) from bank.card;
 ```
 
-:exclamation: Note for instructor: The idea behind the last query is to select the date part from the column 'issued' in the `card` table. Even though it looks like data is in DateTime format, but it is actually a string. We will use this later to convert the extracted _date_ which will be in the _string_ format to the _date_ format.
+
 
 </details>
 
 ### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min
+
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -332,13 +325,12 @@ select substring_index(issued, ' ', 1) from bank.card;
 <details>
   <summary>Click for Solution: Activity 4 solutions </summary>
 
-- Link to [activity 4 solution](https://gist.github.com/ironhack-edu/ec3d66e60f6cfe341a00602cbeae3838).
+- Link to [activity 4 solution]().
 
 </details>
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -350,7 +342,7 @@ select substring_index(issued, ' ', 1) from bank.card;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/9598cbe31d75dea13b50c30bb83af6e4).
+- Link to the [lab solution]().
 
 </details>
 
