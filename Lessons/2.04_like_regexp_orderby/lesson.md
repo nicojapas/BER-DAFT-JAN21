@@ -29,7 +29,7 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 - Removing duplicate rows with `DISTINCT`
 - Using `IN` operator
@@ -49,8 +49,6 @@ select distinct A3 from bank.district;
 select * from bank.order
 where k_symbol in ('leasing', 'pojistine');
 ```
-
-:exclamation: Note for instructor: Remind the students that when using comparison operators in MySQL, they are not case sensitive, which means 'LEASING' and 'leasing' will be evaluated as equal.
 
 ```sql
 select * from bank.account
@@ -72,13 +70,13 @@ where amount - payments between 1000 and 10000;
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -90,19 +88,17 @@ where amount - payments between 1000 and 10000;
 <details>
   <summary>Click for Solution: Activity 1 solutions </summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/59a3b96d8bcec136d70ceece723f85a3).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Using `LIKE` operator
 - Using `REGEXP`
@@ -148,7 +144,7 @@ where k_symbol regexp 'ip|is';
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -160,19 +156,19 @@ where k_symbol regexp 'ip|is';
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/128a3a22184ef9c3c77ae241d0a14c83).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 - More on Regexp
 
@@ -199,7 +195,7 @@ Here are some more examples on regular expressions:
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -213,19 +209,18 @@ Here are some more examples on regular expressions:
 
 1. Discussion
 
-2. Link to [activity 3 solution](https://gist.github.com/ironhack-edu/d805a6ee40c38ae949695ee426aef410).
+2. Link to [activity 3 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 Arrange results in ascending or descending order
 
@@ -270,7 +265,7 @@ order by account_id, bank_to, k_symbol;
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -282,19 +277,18 @@ order by account_id, bank_to, k_symbol;
 <details>
   <summary>Click for Solution: Activity 4 solutions</summary>
 
-- Link to [activity 4 solution](https://gist.github.com/ironhack-edu/8be25f00870e28c0daf6e6a795ae3b39).
+- Link to [activity 4 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -306,7 +300,7 @@ order by account_id, bank_to, k_symbol;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/6e9f08817f6d9b69c4ea8960d988e71f).
+- Link to the [lab solution]().
 
 </details>
 
