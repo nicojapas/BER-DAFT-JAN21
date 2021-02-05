@@ -28,7 +28,7 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 - DELETE vs DROP commands
 - Bulk insert from a CSV file
@@ -48,8 +48,6 @@ delete from account_demo;
   It is important to note the difference between DELETE and DROP.
   `DELETE` only removes the contents of the table, while the `DROP` command removes the table from the database. (Remember we used the statement `drop table if exists district_demo;` before we created the table in the database to make sure that it doesn't already exist in the database.)
 
-> Ask students to delete all the contents of the table `district_demo` as well.
-
 ```sql
 delete from district_demo;
 ```
@@ -59,7 +57,6 @@ delete from district_demo;
 <details>
 <summary> Click for Code Sample: INSERT </summary>
 
-> Show to the students how to upload data in bulk into a table in the database. For this, we will use the `load data local` command. It is by default turned off. We can check it with the `show variables` command. You would see that value for the variable `local_infile` would be OFF. We can then use the `set global` command to switch that variable ON by setting a value 1 to it.
 
 ```sql
 show variables like 'local_infile';
@@ -88,13 +85,13 @@ fields terminated BY ',';
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -106,19 +103,19 @@ fields terminated BY ',';
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/c522598133ffb1a9c3b892c4723c0da0).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - `UPDATE` command
 - Introduction to _normalization_
@@ -169,13 +166,13 @@ TBD :
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -193,13 +190,13 @@ TBD :
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 Data Anomalies (with an example of a poorly normalized database)
 
@@ -241,7 +238,6 @@ TBD code
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -253,30 +249,25 @@ TBD code
 <details>
   <summary>Click for Solution: Activity 3 solutions</summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/7ca73eec293c08f91fa39fece9988583).
+- Link to [activity 3 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 - Aggregation functions available in SQL (`avg()`, `sum()`, `min()` , `max()`, and `count()`)
 - Writing simple queries with aggregation functions
 
-:exclamation: Note to instructor: Mathematical operators and functions used in the previous lessons were _scalar_ functions as they operate on a single value and return a single value. However, the _aggregation_ functions act on a series of values and return a single summary value. Aggregation functions are sometimes called **column** functions as they operate on a series of values in a column. A query that contains one or more aggregate functions is also called a **summary query**.
-
 <details>
 <summary> Click for Code Sample: Simple Aggregations </summary>
  
-:exclamation: Note to instructor: We will keep using the `bank` database and its `loan` table.
-
 ```sql
 -- what is the total amount loaned by the bank so far
 select sum(amount) from bank.loan;
@@ -313,8 +304,6 @@ order by Average asc;
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
-
 <details>
   <summary> Click for Instructions: Lab </summary>
 
@@ -325,7 +314,7 @@ order by Average asc;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/37e757d1af406256c106403d8b921b01).
+- Link to the [lab solution]().
 
 </details>
 
