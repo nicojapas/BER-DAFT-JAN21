@@ -1,15 +1,11 @@
 # Unit 5 - Mid-Bootcamp Project
 
-**This is the ecuator of the Bootcamp, a good moment to check whether our students are well on track** to continue their learning path towards more advanced topics or we need to put in place complementary strategies to set them for success. 
 
 **The students will choose their challenge,** from both algorithms we learned in the past 4 units:
 
 - Use linear regression to predict the selling prices of houses based on a variety of features on which the value of the house is evaluated.
 - Use logistic regression to understand the demographics and other characteristics of a bank customers' that accept a credit card offer and that do not accept a credit card.
 
-**For the PT format, unit 5 extends with one extra mini-project that is scheduled right after Unit 1.** The aim of this mini project is to foster autonomy, project management skills, and problem-solving at an early stage in the program. 
-
-- Perform an end-to-end analysis putting into practice statistical or machine learning techniques. Students might choose their own outcomes working with a dataset of football players and matches provided by FIFA.
 
 ### **After this unit, students will be able to:**
 
