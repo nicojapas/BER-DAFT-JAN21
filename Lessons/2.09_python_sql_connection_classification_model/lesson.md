@@ -30,7 +30,7 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 Establish a connection between SQL and Python with `SQLAlchemy` and `PyMySql`
 
@@ -68,8 +68,6 @@ data = pd.read_sql_query('SELECT * FROM loan', engine)
 data.head()
 ```
 
-:exclamation: Note for instructor: It is important to note that running queries with the Pandas library works well when it comes to getting data from the database as a dataframe in Python IDE. However, if we want to run other queries, for example: DDL, DCL, and TCL, it is advisable to use Executable class. It has `execute()` function that compiles and executes the queries. We will take a look at them now.
-
 2. **Using engine object with executable class**
 
 ```python
@@ -102,13 +100,13 @@ data.head()
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -120,13 +118,13 @@ data.head()
 <details>
   <summary> Click for Solution: Activity 1 solutions </summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/ddcab65f8fb2e33e59710b0d1ad4bfbd).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
@@ -134,7 +132,7 @@ data.head()
 
 :exclamation: Note for instructor: ppt added: `reference_slides/2.9.2_classification_moodels_machine_learning.pptx`
 
-> :clock10: 20 min
+
 
 - More examples of running queries in Python IDE
 - Revisit Supervised Machine Learning Models
@@ -201,7 +199,7 @@ data.head()
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -213,19 +211,18 @@ data.head()
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/96ee79526ac7843eaf5d093ca2383ce0).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 - Introduce the classification problem at hand
 - Import data into Python from SQL
@@ -249,7 +246,6 @@ data = pd.read_sql_query(query, engine)
 data.head()
 ```
 
-> :exclamation: Note: `SELECT *` is not the best for extracting data, as you might have noticed. Some columns have the same name. In this case, it would be easier to selectively get the columns that are important and ignore the columns such as ids that are not useful for the model.
 
 ```python
 # Extracting the data (the previous query modified)
@@ -340,7 +336,6 @@ ax = sns.heatmap(corr_matrix, annot=True)
 plt.show()
 ```
 
-> :exclamation: An important note here: with logistic regression, skewness in the independent variable is not a problem as with linear regression. But transformations may help your model to fit better model.
 
 ```python
 sns.distplot(data['t_amount'])
@@ -380,7 +375,7 @@ categorical = pd.get_dummies(cat, columns=['type', 'operation', 'k_symbol', 'dur
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -392,19 +387,15 @@ categorical = pd.get_dummies(cat, columns=['type', 'operation', 'k_symbol', 'dur
 <details>
   <summary>Click for Solution: Activity 3 solutions</summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/7009ae6cb317c105e00a8250f54d496a).
+- Link to [activity 3 solution]().
 
 </details>
 
 ---
-
-:coffee: **BREAK**
-
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
 
 - Train test split
 - Apply the logistic regression model
@@ -446,7 +437,7 @@ confusion_matrix(y_test, predictions)
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -458,19 +449,17 @@ confusion_matrix(y_test, predictions)
 <details>
   <summary>Click for Solution: Activity 4 solutions</summary>
 
-- Link to [activity 4 solution](https://gist.github.com/ironhack-edu/354c16b61a0bc57e3c6bfabea171bdaa).
+- Link to [activity 4 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -482,14 +471,11 @@ confusion_matrix(y_test, predictions)
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/96c771a5d16b9861cf3f1d47b99163e4).
+- Link to the [lab solution]().
 
 </details>
 
 ---
-
-:sandwich: **LUNCH BREAK**
-
 ---
 
 - [SQLAlchemy - cheat sheet](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
