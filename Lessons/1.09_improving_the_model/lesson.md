@@ -32,7 +32,7 @@ After this lesson, students will be able to:
 - Fit the model and check the accuracy
 - Compare the changes in the different models
 
-:exclamation: Note for instructor: In this session, discuss with the students the complete process that was followed from data collection, data cleaning, processing, and building the model. Suggest places where changes could be made and ask students to apply those changes and check the accuracy of the model. They can compare different models and select the model that is performing the best. Here, we should also emphasize that, while conducting such analysis, different models are tried and tested and the model that gives the most accurate results is chosen.
+
 
 Some changes that could be suggested include different data processing techniques such are:
 
