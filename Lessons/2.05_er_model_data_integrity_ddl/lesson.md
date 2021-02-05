@@ -30,7 +30,6 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts 
 
-> :clock10: 20 min
 > **Learning Activity:** [Slideshow](../slides/2.5.1-Keys.pptx)
 
 Entities and their attributes
@@ -56,13 +55,13 @@ If you compare the two images, you can see the amount of redundant information. 
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -74,19 +73,19 @@ If you compare the two images, you can see the amount of redundant information. 
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/f596fe11eafb506c85a3d1ca339aae66).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Establishing the relationship between entities
 - Understanding Entity-Relationship diagrams
@@ -98,7 +97,7 @@ If you compare the two images, you can see the amount of redundant information. 
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -118,7 +117,7 @@ If you compare the two images, you can see the amount of redundant information. 
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
@@ -128,7 +127,7 @@ If you compare the two images, you can see the amount of redundant information. 
 
 > Note that this is just an introduction to make the students familiar with these terms/concepts. In the next session, we will talk more in detail on how to use _DDL_ commands. Also, inform the students that we will focus on _DML_ more in this curriculum, since writing these commands, and especially `select` queries, is crucial for any data analyst/business analyst.
 
-> :clock10: 20 min
+
 
 Data Integrity constraints
 
@@ -164,13 +163,12 @@ Check if referential integrity is followed in the following tables?
 - Data Control Language is used to give rights and permission to the user. It is used to control access to the database by securing it. Grant, revoke.
 - Transactional Control Language is used to create and manage transactions within the database. Commit, rollback, savepoint.
 
-Note that this is just an introduction to make the students familiar with these terms/concepts. In the next session, we will talk more in detail on how to use _DDL_ commands. Also, inform the students that we will focus on _DML_ more in this curriculum, since writing these commands, and especially `select` queries, is crucial for any data analyst/business analyst.
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -182,19 +180,18 @@ Note that this is just an introduction to make the students familiar with these 
 <details>
   <summary>Click for Solution: Activity 3 solutions</summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/898f7213370264ee6c7808ae2a85e266).
+- Link to [activity 3 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 - Let's say that we are trying to re-create the bank database. We already know the tables we need to define. We have all the information that we need, which includes their attributes, primary keys and foreign keys, ER diagram, and so on. Now we will try to use DDL commands to create some of the tables of the database ourselves.
 
@@ -327,7 +324,6 @@ add column balance int(11) after date;
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -339,19 +335,18 @@ add column balance int(11) after date;
 <details>
   <summary>Click for Solution: Activity 4 solutions </summary>
 
-- Link to [activity 4 solution](https://gist.github.com/ironhack-edu/d17c76d48a06b7e7c2e458ee574baae3).
+- Link to [activity 4 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -363,7 +358,7 @@ add column balance int(11) after date;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/eb72d39ab571b69a1e7ccdc9bc23cb42).
+- Link to the [lab solution]().
 
 </details>
 
