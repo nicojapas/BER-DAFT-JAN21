@@ -26,14 +26,13 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 - Categorical data - nominal, ordinal
 - Encoding categorical variables
   - Label encoding
   - One Hot encoding
 
-:exclamation: Note for instructor: Students can continue using the same Jupyter file from the last lesson. If the students do not have that, they can use the following code to quickly set up:
 
 ```python
 data = pd.read_csv('regression_data.csv')
@@ -72,7 +71,6 @@ encoded
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -90,13 +88,11 @@ Keeping One Hot encoding as the reference, talk about how multiple categories in
 
 ---
 
-:coffee: **BREAK**
-
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Fitting the model with processed data
 - Understanding the documentation
@@ -129,12 +125,9 @@ r2_score(y_test, predictions)
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
-
-(_Share the following link with your students. Students should clone/download repository to be able to work on the tasks._)
 
 - Link to [activity 2](https://github.com/ironhack-edu/data_1.08_activities/blob/master/1.08_activity_2.md).
 
@@ -149,13 +142,12 @@ r2_score(y_test, predictions)
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 - Checking the accuracy of the model
   - RMSE
@@ -187,7 +179,6 @@ print(adj_r2)
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -205,7 +196,6 @@ print(adj_r2)
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
@@ -225,7 +215,7 @@ print(adj_r2)
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 4 </summary>
@@ -235,14 +225,11 @@ print(adj_r2)
 </details>
 
 ---
-
 :coffee: **BREAK**
 
 ---
 
 ### :pencil2: Practice on key concepts - Lab
-
-> :clock10: 30 min
 
 <details>
   <summary> Click for Instructions: Lab </summary>
