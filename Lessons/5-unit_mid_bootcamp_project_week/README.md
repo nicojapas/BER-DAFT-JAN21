@@ -33,12 +33,6 @@
     - Check accuracy of the model (exploring *Variance vs. Bias* tradeoff)
     - Iterate on the model to get more optimized results.
 
-# Project | Deliverables
-🚨🚨🚨 @Himanshu @Sandra I'd need to check this !
-
-- The students will be required to upload the project on GitHub.
-- The repo should be properly organized with specific use of folders and it should follow the naming conventions for folders.
-- Make sure that the students update the `Readme.md` file in the repo describing the project, its purpose, and also briefly describing the methodology used to solve the problems.
 
 
 
