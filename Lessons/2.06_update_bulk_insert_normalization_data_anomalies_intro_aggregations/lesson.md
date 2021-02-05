@@ -158,7 +158,6 @@ where A2 = 'Kladno';
       - 3NF: Third normal form
       - BCNF: Boyce-Cod normal form
 
-> :exclamation: Note to the instructor: This is just an introduction, we will talk about this in detail in the following week.
 
 <details>
 TBD :
