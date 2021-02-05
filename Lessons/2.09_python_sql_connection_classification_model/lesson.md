@@ -130,7 +130,6 @@ data.head()
 
 ### Lesson 2 key concepts
 
-:exclamation: Note for instructor: ppt added: `reference_slides/2.9.2_classification_moodels_machine_learning.pptx`
 
 
 
