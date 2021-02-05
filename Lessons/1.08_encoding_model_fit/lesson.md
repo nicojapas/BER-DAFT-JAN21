@@ -201,7 +201,7 @@ print(adj_r2)
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
+
 
 - Recap the complete process
 - Discussion
