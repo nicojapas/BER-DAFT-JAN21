@@ -26,7 +26,7 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 More on window functions
 
@@ -67,13 +67,13 @@ As a next step if we want to create a filter on these ranks, to find out, let's 
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -85,19 +85,17 @@ As a next step if we want to create a filter on these ranks, to find out, let's 
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/92dd5f8cfdedf81ecb20d49d045d2d8d).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
 
 - Analyze the difference between `RANK()` and `DENSE_RANK()` and `ROW_NUMBER()`
 
@@ -132,7 +130,7 @@ where k_symbol <> ' ';
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 2 </summary>
@@ -144,19 +142,18 @@ where k_symbol <> ' ';
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/b89a4f3d51e7c7806c1e2700c70d8633).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 Introduction to SQL **joins**
 
@@ -212,7 +209,7 @@ limit 10;
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -224,19 +221,17 @@ limit 10;
 <details>
   <summary>Click for Solution: Activity 3 solutions</summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/ec60c41d2901db6d3df3770d2f8bdc1c).
+- Link to [activity 3 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
 
 More examples of simple queries to join two tables
 
@@ -284,7 +279,6 @@ order by a.account_id;
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -296,12 +290,10 @@ order by a.account_id;
 <details>
   <summary>Click for Solution: Lab solutions</summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/27947ea921132184e01d775f8a6758b6).
+- Link to the [lab solution]().
 
 </details>
 
 ---
 
-:sandwich: **LUNCH BREAK**
 
----
