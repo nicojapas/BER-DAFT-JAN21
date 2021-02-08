@@ -27,7 +27,7 @@ After this lesson, students will be able to:
 
 ### Lesson 1 key concepts
 
-> :clock10: 20 min
+
 
 - Queries using aggregate functions
 - Using aggregate functions with `GROUP BY` clause (`GROUP BY` on a single column)
@@ -36,8 +36,6 @@ After this lesson, students will be able to:
 <summary> Click for Code Sample </summary>
 
 Revisiting the last query we did using GROUP BY. In this query we will try to find out the average balances for the different statuses of people who have taken loans:
-
-:exclamation: Note for instructor: In this example, we use the `bank.loan` table.
 
 ```sql
 -- step1:
@@ -52,8 +50,6 @@ from bank.loan
 group by status
 order by status;
 ```
-
-:exclamation: Note for instructor: In this example, we use the `bank.order` table.
 
 ```sql
 -- Find the average amount of transactions for each different kind of k_symbol
@@ -72,8 +68,6 @@ group by k_symbol
 order by Average asc;
 ```
 
-:exclamation: Note for instructor: Ask the students to apply the same filter using the NOT filter.
-
 ```sql
 -- the same query with NOT operator
 
@@ -87,13 +81,13 @@ order by Average asc;
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
+
 
 <details>
   <summary> Click for Instructions: Activity 1 </summary>
@@ -105,19 +99,19 @@ order by Average asc;
 <details>
   <summary>Click for Solution: Activity 1 solutions</summary>
 
-- Link to [activity 1 solution](https://gist.github.com/ironhack-edu/2442ef003f6f348869192699e2808f8d).
+- Link to [activity 1 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 2 key concepts
 
-> :clock10: 20 min
+
 
 - Using aggregate functions with `GROUP BY` clause (`GROUP BY` more than one column)
 - More examples on `GROUP BY` clause
@@ -172,19 +166,19 @@ order by type, operation, k_symbol;
 <details>
   <summary>Click for Solution: Activity 2 solutions</summary>
 
-- Link to [activity 2 solution](https://gist.github.com/ironhack-edu/83c433fa7df92011bc79455a7c27803f).
+- Link to [activity 2 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
+
 
 ---
 
 ### Lesson 3 key concepts
 
-> :clock10: 20 min
+
 
 - Using `GROUP BY` and `HAVING` clauses together
 - Difference between `WHERE` and `HAVING` clauses
@@ -240,7 +234,6 @@ order by duration, status;
 
 #### :pencil2: Check for Understanding - Class activity/quick quiz
 
-> :clock10: 10 min (+ 10 min Review)
 
 <details>
   <summary> Click for Instructions: Activity 3 </summary>
@@ -252,19 +245,17 @@ order by duration, status;
 <details>
   <summary>Click for Solution: Activity 3 solutions</summary>
 
-- Link to [activity 3 solution](https://gist.github.com/ironhack-edu/90e5d2ed659f2323b16368d08570d2f8).
+- Link to [activity 3 solution]().
 
 </details>
 
 ---
 
-:coffee: **BREAK**
 
 ---
 
 ### Lesson 4 key concepts
 
-> :clock10: 20 min
 
 - Window functions `OVER()` and `PARTITION BY()`
 - Using aggregation functions with window functions
@@ -303,7 +294,7 @@ where amount > 100000;
 
 ### :pencil2: Practice on key concepts - Lab
 
-> :clock10: 30 min
+
 
 <details>
   <summary> Click for Instructions: Lab </summary>
@@ -315,12 +306,12 @@ where amount > 100000;
 <details>
   <summary>Click for Solution: Lab solutions </summary>
 
-- Link to the [lab solution](https://gist.github.com/ironhack-edu/c9f1d394739e6bf3f1b43e5c4d2160a9).
+- Link to the [lab solution]().
 
 </details>
 
 ---
 
-:sandwich: **LUNCH BREAK**
+
 
 ---
